@@ -1,0 +1,13 @@
+.main_label_container {
+	margin: 0px;
+}
+
+.change_account_data a {
+	margin-left: 10px;
+	color: #757575;;
+	font-size: 14px;
+}
+
+.change_account_data a:hover {
+	color: #333333;
+}

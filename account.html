@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_style.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_customer_style.css">
+
+	<title>Account</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="header-wrapper">
+				<img src="media/logo.png" alt="logo" class="logo">
+				<nav class="header-nav">
+					<a title="hi" href="#">Objednávky</a>
+					<a href="#"  id="current_page">Osobní účet</a>
+				</nav>
+			</div>
+		</header>
+		<div class="content-wrapper">
+			<main class="content">
+				<div class="main_label_container"><h1>Objednávky</h1></div>
+				<div class="list order_list">
+					<div class="order list_element" id="order_1">
+						<div class="order_info list_element_info">
+							<p class="adress list_element_label">Jana Opletala 77/9</p>
+							<div class="date_container"><p>Datum: </p><p class="date">30.01.2022</p></div>
+							<div class="comment_container"><p>Komentář: </p><p class="comment">Lorem ipsum dolor sit amet consectetur.</p></div>
+							<div class="order_id_container"><p>Číslo objednávky: #</p><p class="order_id">1</p></div>
+						</div>
+						<div class="button_container">
+							<button type="button" class="choose_worker" id="order1">Vyberte dodavatele</button>
+						</div>
+					</div>
+
+					<div class="order list_element" id="order_2">
+						<div class="order_info list_element_info">
+							<p class="adress list_element_label">Jana Opletala 77/9</p>
+							<div class="date_container"><p>Datum: </p><p class="date">30.01.2022</p></div>
+							<div class="comment_container"><p>Komentář: </p><p class="comment">Lorem ipsum dolor sit amet consectetur.</p></div>
+							<div class="order_id_container"><p>Číslo objednávky: #</p><p class="order_id">2</p></div>
+						</div>
+						<div class="button_container">
+							<button type="button" class="done">Dokončena</button>
+						</div>
+					</div>
+
+					<div class="order list_element" id="order_3">
+						<div class="order_info list_element_info">
+							<p class="adress list_element_label">Jana Opletala 77/9</p>
+							<div class="date_container"><p>Datum: </p><p class="date">30.01.2022</p></div>
+							<div class="comment_container"><p>Komentář: </p><p class="comment">Lorem ipsum dolor sit amet consectetur.</p></div>
+							<div class="order_id_container"><p>Číslo objednávky: #</p><p class="order_id">3</p></div>
+						</div>
+						<div class="button_container">
+							<button type="button" class="canceled">Zrušena</button>
+						</div>
+					</div>
+
+					<div class="order list_element" id="order_4">
+						<div class="order_info list_element_info">
+							<p class="adress list_element_label">Jana Opletala 77/9</p>
+							<div class="date_container"><p>Datum: </p><p class="date">30.01.2022</p></div>
+							<div class="comment_container"><p>Komentář: </p><p class="comment">Lorem ipsum dolor sit amet consectetur.</p></div>
+							<div class="order_id_container"><p>Číslo objednávky: #</p><p class="order_id">4</p></div>
+						</div>
+						<div class="button_container">
+							<button type="button" class="canceled">Zrušena</button>
+						</div>
+					</div>
+
+					<div class="order list_element" id="order_5">
+						<div class="order_info list_element_info">
+							<p class="adress list_element_label">Jana Opletala 77/9</p>
+							<div class="date_container"><p>Datum: </p><p class="date">30.01.2022</p></div>
+							<div class="comment_container"><p>Komentář: </p><p class="comment">Lorem ipsum dolor sit amet consectetur.</p></div>
+							<div class="order_id_container"><p>Číslo objednávky: #</p><p class="order_id">5</p></div>
+						</div>
+						<div class="button_container">
+							<button type="button" class="canceled">Zrušena</button>
+						</div>
+					</div>
+
+					<div class="order list_element" id="order_6">
+						<div class="order_info list_element_info">
+							<p class="adress list_element_label">Jana Opletala 77/9</p>
+							<div class="date_container"><p>Datum: </p><p class="date">30.01.2022</p></div>
+							<div class="comment_container"><p>Komentář: </p><p class="comment">Lorem ipsum dolor sit amet consectetur.</p></div>
+							<div class="order_id_container"><p>Číslo objednávky: #</p><p class="order_id">6</p></div>
+						</div>
+						<div class="button_container">
+							<button type="button" class="canceled">Zrušena</button>
+						</div>
+					</div>
+				</div>
+				<button type="button" id="new_order">Objednat</button>
+			</main>
+
+			<aside class="content">
+				<div class="main_label_container"><h1>Vybrat dodavatele</h1></div>
+				<div class="workers_list list">
+					<div class="worker list_element" id="worker_1">
+						<div class="worker_info list_element_info">
+							<p class="worker_name list_element_label">Společnost “Okurka”</p>
+							<div class="price_container"><p>Cena: </p><p class="price">55</p><p> Kč</p></div>
+							<div class="date_container"><p>Datum: </p><p class="date">30.01.2022</p></div>
+							<p class="rating">5.0</p>
+						</div>
+						<div class="button_container">
+							<button type="button" class="choose">Zvolit</button>
+						</div>
+					</div>
+
+					<div class="worker list_element" id="worker_2">
+						<div class="worker_info list_element_info">
+							<p class="worker_name list_element_label">Společnost “Okurka”</p>
+							<div class="price_container"><p>Cena: </p><p class="price">55</p><p> Kč</p></div>
+							<div class="date_container"><p>Datum: </p><p class="date">30.01.2022</p></div>
+							<p class="rating">5.0</p>
+						</div>
+						<div class="button_container">
+							<button type="button" class="choose">Zvolit</button>
+						</div>
+					</div>
+
+					<div class="worker list_element" id="worker_3">
+						<div class="worker_info list_element_info">
+							<p class="worker_name list_element_label">Společnost “Okurka”</p>
+							<div class="price_container"><p>Cena: </p><p class="price">55</p><p> Kč</p></div>
+							<div class="date_container"><p>Datum: </p><p class="date">30.01.2022</p></div>
+							<p class="rating">5.0</p>
+						</div>
+						<div class="button_container">
+							<button type="button" class="choose">Zvolit</button>
+						</div>
+					</div>
+				</div>
+
+				
+
+				
+			</aside>
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="scripts/main_script.js"></script>
+</body>
+</html>
